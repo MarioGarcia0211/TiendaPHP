@@ -1,0 +1,45 @@
+/* Navbar */
+.navbar{
+    display: flex;
+}
+
+.centrar{ 
+    display: flex;
+    align-items: center;
+}
+/* Final navbar */
+
+/* Footer */
+footer{
+    background-color: #1c2331;
+    color: #ffff;
+    position: absolute;
+    width: 100%;
+}
+/* Final footer */
+
+/* Contenedor global */
+.contenedor{
+    background: #f4f5f8;
+    padding: 15px;
+    min-height: 86.5vh;
+}
+/* Contenedor global */
+
+/* Registar usuario */
+.form-group{
+    padding-bottom: 20px;
+}
+/* Final registrar usuario */
+
+.notItemOne > option:first-child{
+    display: none;
+}
+
+/* Media query */
+
+@media only screen and (max-width: 990px) {
+    .contenedor{
+      min-height: 82.5vh;
+    }
+}
